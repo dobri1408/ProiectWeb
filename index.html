@@ -4,12 +4,13 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Food Network</title>
+      <title>Foodie Bucuresti</title>
       <link rel="stylesheet" href="./CSS/style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="index.js"></script>
    </head>
    <body>
+      
       <!-- Nav Section Start -->
       <section class="navBar">
          <div class="topNav">
@@ -25,6 +26,37 @@
             </a>
          </div>
       </section>
+      <div id="myModal" class="modal">
+
+         <!-- Modal content -->
+         <div class="modal-content">
+        
+           <div class="container">
+            <div class="contact-box">
+              <div class="left"><img src="./img/pizza.jpg" alt="" srcset="" />
+               </div>
+              <div class="right">
+                <h2>Adauga la comanda</h2>
+    
+                <input
+                  type="number"
+                  name=""
+                  class="field"
+                  placeholder="Canitate"
+                  id=""
+                />
+    
+                <button class="btn">Adauga la comanda</button>
+                <br/>
+                <br/>
+                <button class="btn" onclick="closeModal()">Renunta</button>
+               
+              </div>
+            </div>
+          </div>
+         </div>
+       
+       </div>
       <section class="welcome" id="welcome">
          <div class="welcomeMain">
             <div class="welcomeLeft">
@@ -59,7 +91,7 @@
                         <div class="imgDesc">
                            <h2>Pizza</h2>
                            <p>$5</p>
-                           <button>Adauga la comanda</button>
+                           <button onclick="openModal()">Adauga la comanda</button>
                         </div>
                      </div>
                   </div>
@@ -71,7 +103,7 @@
                         <div class="imgDesc">
                            <h2>Burger</h2>
                            <p>$5</p>
-                           <button><a href="order.html">Adauga la comanda</a></button>
+                           <button onclick="openModal()">Adauga la comanda</button>
                         </div>
                      </div>
                   </div>
@@ -83,7 +115,7 @@
                         <div class="imgDesc">
                            <h2>Momo</h2>
                            <p>$5</p>
-                           <button><a href="order.html">Adauga la comanda</a></button>
+                           <button onclick="openModal()">Adauga la comanda</button>
                         </div>
                      </div>
                   </div>
@@ -95,7 +127,7 @@
                         <div class="imgDesc">
                            <h2>Hotdog</h2>
                            <p>$5</p>
-                           <button><a href="order.html">Adauga la comanda</a></button>
+                           <button onclick="openModal()">Adauga la comanda</button>
                         </div>
                      </div>
                   </div>
@@ -110,7 +142,7 @@
                      <div class="imgDesc">
                         <h2>Chicken-Burger</h2>
                         <p>$5</p>
-                        <button><a href="order.html">Adauga la comanda</a></button>
+                        <button onclick="openModal()">Adauga la comanda</button>
                      </div>
                   </div>
                </div>
@@ -122,7 +154,7 @@
                      <div class="imgDesc">
                         <h2>Chicken-Pizza</h2>
                         <p>$5</p>
-                        <button><a href="order.html">Adauga la comanda</a></button>
+                        <button onclick="openModal()">Adauga la comanda</button>
                      </div>
                   </div>
                </div>
@@ -134,7 +166,7 @@
                      <div class="imgDesc">
                         <h2>Dominos</h2>
                         <p>$5</p>
-                        <button><a href="order.html">Adauga la comanda</a></button>
+                        <button onclick="openModal()">Adauga la comanda</button>
                      </div>
                   </div>
                </div>
@@ -146,7 +178,7 @@
                      <div class="imgDesc">
                         <h2>McDonald-Special</h2>
                         <p>$5</p>
-                        <button><a href="order.html">Adauga la comanda</a></button>
+                        <button onclick="openModal()">Adauga la comanda</button>
                      </div>
                   </div>
                </div>
