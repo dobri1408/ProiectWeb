@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.secondary {
+  color: orange;
+}
+
+img-responsive {
+  width: 100%;
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+
+button {
+  color: #fff;
+  padding: 2.5%;
+  background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+  border-radius: 25px;
+  cursor: pointer;
+  border: transparent;
+}
+
+button:hover {
+  background-image: linear-gradient(to left, orange, rgb(243, 70, 70));
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Universal End*/
+/* <!-- -- 
+----
+------
+--------
+----------- --> */
+/* <!-- Nav Section Start --> */
+
+.navBar {
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to right, orange, rgb(243, 70, 70));
+  padding-bottom: 1%;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  height: 10vh;
+}
+
+.navBar a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.topNav .logo a {
+  color: red;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.topNav .logo a span {
+  color: white;
+}
+
+.topNav .navItems {
+  margin-right: 1%;
+}
+
+.topNav .navItems a {
+  margin-right: 1em;
+  color: white;
+}
+
+.topNav .navItems a:hover {
+  color: orange;
+}
+
+.welcomeMain {
+  display: flex;
+  /* border: 2px solid; */
+  margin: 0 5%;
+}
+
+.welcomeMain .welcomeLeft {
+  padding-top: 13%;
+  width: 50%;
+}
+
+.welcomeMain .welcomeRight {
+  width: 50%;
+}
+
+.welcomeMain .welcomeRight img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.welcomeLeft h1 {
+  font-size: 3em;
+  padding-bottom: 3%;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.welcomeLeft h1 span {
+  color: orange;
+}
+
+.welcomeLeft p {
+  color: gray;
+  padding-bottom: 7%;
+}
+
+section.about {
+  background-image: url("../img/7.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* width: 100vw; */
+  /* border: 2px solid; */
+  background-size: cover;
+}
+
+.aboutMain {
+  display: flex;
+  /* border: 2px solid; */
+  margin: 0 5%;
+  margin-top: 10%;
+}
+
+.aboutMain .aboutLeft {
+  width: 50%;
+  margin-top: 10%;
+}
+
+.aboutMain .aboutRight {
+  width: 50%;
+  margin-top: 10%;
+}
+
+.aboutMain .aboutRight h1 {
+  padding-bottom: 4%;
+}
+.aboutMain .aboutRight p {
+  padding-bottom: 10%;
+}
+
+.aboutMain .aboutLeft img {
+  max-width: 100%;
+  max-height: 80vh;
+  /* width: 100px; */
+}
+
+.recipies {
+  margin-top: 5%;
+}
+
+.recipieControl {
+  display: flex;
+}
+
+.recBox {
+  /* border: 2px solid; */
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4%;
+}
+
+.recBox img {
+  max-width: 100%;
+  margin-bottom: 20%;
+}
+
+.statusBar {
+  /* border: 2px solid; */
+  margin: 4% 2%;
+  padding: 3%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.statusMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foods {
+  margin-top: 5%;
+}
+
+.foodArea {
+  display: flex;
+}
+
+.foodBox {
+  /* border: 2px solid; */
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4%;
+  border: 2px solid;
+}
+
+.foodBox img {
+  max-width: 100%;
+}
+
+.imgDesc h2 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 2%;
+}
+
+/* Food Setcion End */
+/* footer Start */
+section.footer {
+  background-color: #111;
+  margin-top: 5%;
+}
+.footer h1 span {
+  color: orange;
+}
+.footer h1 {
+  color: gray;
+  padding-top: 3%;
+}
+
+.footer h3 {
+  color: #fff;
+  padding: 2% 0;
+}
+/* footer end */
+
+/* Media Queries for Mobile Devices */
+.search-wrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+*:focus {
+  outline: none;
+}
+
+.search-input {
+  width: 95%;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.search-btn {
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.topNav .icon {
+  display: none;
+}
+.navItems {
+  display: inline-block;
+}
+/* Stil atunci când search-wrapper este activ */
+.search-wrapper.active {
+  visibility: visible;
+  opacity: 1;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.contact-box {
+  max-width: 850px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+  border-radius: 2%;
+}
+
+.right {
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+.field {
+  width: 80%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  /* background-color: #2ecc71; */
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: green;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-text-stroke: #27ae60 2px;
+}
+
+.btn:hover {
+  /* border: 2px solid green; */
+  background-color: aliceblue;
+}
+
+.field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+@media (max-width: 750px) {
+  .welcomeRight {
+    display: none;
+  }
+  .topNav,
+  .aboutMain,
+  .statusMain,
+  .foodArea,
+  .recipieControl {
+    flex-direction: column;
+    align-items: center;
+  }
+  .topNav {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .topNav .navItems {
+    display: none;
+  }
+
+  .topNav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topNav a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5;
+  }
+
+  .active {
+    background-color: #04aa6d;
+    color: white;
+  }
+
+  .welcomeMain,
+  .aboutMain {
+    margin: 0 3%;
+    flex-direction: column;
+  }
+
+  .topNav {
+    height: auto;
+  }
+
+  .topNav .logo a,
+  .topNav .navItems {
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .welcomeMain .welcomeLeft,
+  .welcomeMain .welcomeRight,
+  .aboutMain .aboutLeft,
+  .aboutMain .aboutRight {
+    width: 100%;
+    padding-top: 5%;
+  }
+
+  .welcomeMain .welcomeRight img,
+  .aboutMain .aboutLeft img {
+    max-height: auto;
+  }
+
+  .recBox,
+  .foodBox {
+    margin: 5% 3%;
+    padding: 5%;
+  }
+
+  .button {
+    padding: 5%;
+  }
+
+  /* Ajustează dimensiunea și spațierea pentru secțiunea welcome */
+  .welcomeMain {
+    flex-direction: column; /* Elementele sunt aranjate vertical */
+    align-items: center; /* Centrat pe axa transversală */
+  }
+
+  .welcomeMain .welcomeLeft,
+  .welcomeMain .welcomeRight {
+    width: auto; /* Permite elementelor să ocupe lățimea necesară */
+    text-align: center; /* Alinează textul la centru pentru coerență */
+    padding-top: 10%; /* Spațiere suplimentară de sus pentru estetică */
+  }
+}

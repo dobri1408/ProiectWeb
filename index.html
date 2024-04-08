@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Food Network</title>
+      <link rel="stylesheet" href="./CSS/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="index.js"></script>
+   </head>
+   <body>
+      <!-- Nav Section Start -->
+      <section class="navBar">
+         <div class="topNav">
+            <div class="logo">
+               <a href="#welcome"><span>Foodie</span> București</a>
+            </div>
+            <div class="navItems" id="navItems">
+               <a href="#welcome">Acasă</a>
+               <a href="#foods">Mancare</a>
+            </div>
+            <a  class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+         </div>
+      </section>
+      <section class="welcome" id="welcome">
+         <div class="welcomeMain">
+            <div class="welcomeLeft">
+               <h1>Mâncare sănătoasă<br>La un buton de tine
+                  <br>With <span>Foodie</span> București
+               </h1>
+               <p>Cea mai sănătoasă mâncare din București
+               </p>
+               <button><a href="#search"  id ="search">Order Food</a></button>
+            </div>
+            <div class="welcomeRight" style="padding-top:10vh">
+               <img src="./img/home.png" style="height:70vh" alt="">
+            </div>
+         </div>
+      </section>
+      <section class="foods" id="foods">
+         <section class="statusBar">
+            <div class="search-wrapper">
+               <input type="text" class="search-input"  placeholder="Caută...">
+               <button class="search-btn">Caută</button>
+            </div>
+         </section>
+         <div class="foodsMain">
+            <div class="foodsHead">
+               <h1 class="text-center" >Popular Foods</h1>
+            </div>
+            <div class="foodArea">
+               <div class="foodsControl">
+                  <div class="foodBox">
+                     <div class="foodContainerBox">
+                        <img class="img-responsive" src="./img/meal2.png" alt="">
+                        <div class="imgDesc">
+                           <h2>Pizza</h2>
+                           <p>$5</p>
+                           <button>Adauga la comanda</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="foodsControl">
+                  <div class="foodBox">
+                     <div class="foodContainerBox">
+                        <img class="img-responsive" src="./img/meal1.jpg" alt="">
+                        <div class="imgDesc">
+                           <h2>Burger</h2>
+                           <p>$5</p>
+                           <button><a href="order.html">Adauga la comanda</a></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="foodsControl">
+                  <div class="foodBox">
+                     <div class="foodContainerBox">
+                        <img class="img-responsive" src="./img/meal2.png" alt="">
+                        <div class="imgDesc">
+                           <h2>Momo</h2>
+                           <p>$5</p>
+                           <button><a href="order.html">Adauga la comanda</a></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="foodsControl">
+                  <div class="foodBox">
+                     <div class="foodContainerBox">
+                        <img class="img-responsive" src="./img/meal1.jpg" alt="">
+                        <div class="imgDesc">
+                           <h2>Hotdog</h2>
+                           <p>$5</p>
+                           <button><a href="order.html">Adauga la comanda</a></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="foodArea">
+            <div class="foodsControl">
+               <div class="foodBox">
+                  <div class="foodContainerBox">
+                     <img class="img-responsive" src="./img/meal2.png" alt="">
+                     <div class="imgDesc">
+                        <h2>Chicken-Burger</h2>
+                        <p>$5</p>
+                        <button><a href="order.html">Adauga la comanda</a></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="foodsControl">
+               <div class="foodBox">
+                  <div class="foodContainerBox">
+                     <img class="img-responsive" src="./img/meal1.jpg" alt="">
+                     <div class="imgDesc">
+                        <h2>Chicken-Pizza</h2>
+                        <p>$5</p>
+                        <button><a href="order.html">Adauga la comanda</a></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="foodsControl">
+               <div class="foodBox">
+                  <div class="foodContainerBox">
+                     <img class="img-responsive" src="./img/meal2.png" alt="">
+                     <div class="imgDesc">
+                        <h2>Dominos</h2>
+                        <p>$5</p>
+                        <button><a href="order.html">Adauga la comanda</a></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="foodsControl">
+               <div class="foodBox">
+                  <div class="foodContainerBox">
+                     <img class="img-responsive" src="./img/meal1.jpg" alt="">
+                     <div class="imgDesc">
+                        <h2>McDonald-Special</h2>
+                        <p>$5</p>
+                        <button><a href="order.html">Adauga la comanda</a></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <section class="footer">
+         <h1 class="text-center"><span>Foodie</span> Bucuresti</h1>
+         <h3 class="text-center">@CopyRight 2024 |All Rights Reserved</h3>
+      </section>
+   </body>
+</html>
